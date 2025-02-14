@@ -14,9 +14,9 @@ const port = process.env.PORT || 3000;
 app.use(express.json()); // Middleware to parse JSON body
 
 // Replace with your API ID, API Hash, and phone number
-const apiId = 29773749;
-const apiHash = "9a22cce43ed56f2fed2d95a3df4aed79";
-const phoneNumber = "+989399682366";
+const apiId = 12314314;
+const apiHash = "1212344";
+const phoneNumber = "+1131141";
 
 // Setup the Telegram client session
 const sessionFile = "session.txt";
